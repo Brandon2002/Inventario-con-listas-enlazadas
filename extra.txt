@@ -1,0 +1,7 @@
+let detalles = document.getElementById('buscar');
+                detalles.innerHTML += 'se encontró: ' + aux.listarProd();
+                aux = aux._next;
+
+
+                let detalles = document.getElementById('buscar');
+            detalles.innerHTML += 'Este producto no existe en el inventario'

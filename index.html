@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Inventario</title>
+
+  
+</head>
+
+<body>
+  <div class="header">
+    <h1>Inventario de productos</h1>
+  </div>
+
+  <div class="content">
+    <div>
+      <h2>Registrar</h2>
+      <div class=" content-info">
+        <form>
+          <div class="field">
+            <label>Código:</label>
+            <input id="code" type="number">
+          </div>
+          <div class="field">
+            <label>Nombre:</label>
+            <input id="name" type="text" size=35>
+          </div>
+          <div class="field">
+            <label>Cantidad:</label>
+            <input id="quantity" type="number">
+          </div>
+          <div class="field">
+            <label>Costo:</label>
+            <input id="cost" type="number">
+          </div>
+          <div class="field">
+            <label>Posición:</label>
+            <input id="position" type="number">
+          </div>
+          <div class="field">
+          <div class="field">
+            <input id="btnAdd" type="button" value="Agregar">
+          </div>
+          <div class="field">
+            <input id="btnE" type="button" value="Eliminar" >
+          </div>
+          <div class="field">
+            <input id="btnB" type="button" value="Buscar" >
+          </div>
+          <div class="field">
+            <input id="btnR" type="button" value="Recuperar" >
+          </div>
+          <div class="field">
+            <input id="btnRI" type="button" value="Recuperar Invertido" >
+          </div>
+          
+          <div>
+            
+            <br><h3>Productos encontrados</h3><br>
+            <div id= "buscar">
+
+            </div><br><br><br>
+            
+
+            <!-- // Bloque donde se va insertar HTML -->
+            <h3>Lista de Productos</h3><br>
+            <div id="productosHtml" class = "productosHtml">
+
+            
+            
+            
+
+           
+            </div>
+            <br><h3>Productos eliminados</h3>
+            <div id = "elim"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    </div>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
